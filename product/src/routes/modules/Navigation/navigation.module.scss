@@ -1,0 +1,30 @@
+@import "../../../variables.module.scss";
+
+// NAVBAR-STYLES
+.navigation {
+  text-align: center;
+  color: $lightColor;
+
+  & a {
+    display: block;
+    padding: 10px 0;
+    font-size: 21px;
+    font-weight: 700;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  & h3 {
+    padding-bottom: 5px;
+    border-bottom: 1px solid $lightColor;
+  }
+}
+// HEADER-STYLES
+.header {
+  padding: 11px;
+  font-size: 21px;
+  font-weight: 700;
+  border-left: 1px solid $lightColor;
+  background: $color;
+  color: $lightColor;
+}
